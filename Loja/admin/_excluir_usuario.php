@@ -3,9 +3,9 @@ include 'connection.php';
 $id_usuario = $_POST['id_usuario'];
 
 $sql = "DELETE FROM usuarios WHERE usuarios.id_usuario='$id_usuario'";
-$a = mysqli_query($conexao,$sql);
+$a = mysqli_query($conexao, $sql);
 ?>
- 
+
 <head>
   <style>
     div {

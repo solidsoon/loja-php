@@ -10,7 +10,7 @@ $imagem = $_POST['imagem'];
 $sql = "INSERT INTO produtos (desc_produto, id_categoria, id_fornecedor, preco, imagem) VALUES ('$desc_produto','$id_categoria','$id_fornecedor', '$preco', '$imagem')";
 $inserir = mysqli_query($conexao, $sql);
 ?>
- 
+
 <head>
   <style>
     div {

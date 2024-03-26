@@ -14,7 +14,7 @@ $uf = $_POST['uf'];
 $sql = "INSERT INTO fornecedores (id_fornecedor,nome_fornecedor, cpf_cnpj, cep, logradouro, numero, complemento, uf ,email, celular) VALUES ('$id_fornecedor','$nome_fornecedor','$cpf_cnpj','$cep','$logradouro','$numero','$complemento','$uf','$email','$celular')";
 $inserir = mysqli_query($conexao, $sql);
 ?>
- 
+
 <head>
   <style>
     div {

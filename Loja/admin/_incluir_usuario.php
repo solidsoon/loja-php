@@ -8,7 +8,7 @@ $senha = $_POST['senha'];
 $sql = "INSERT INTO usuarios (nome_usuario, email, senha) VALUES ('$nome_usuario','$email','$senha')";
 $inserir = mysqli_query($conexao, $sql);
 ?>
- 
+
 <head>
   <style>
     div {
